@@ -14,6 +14,7 @@ public class App {
         Cat vasya =
                 applicationContext.getBean("cat", Cat.class);
         System.out.println(dub == elka);
+        
         System.out.println(barsik == vasya);
     }
 }
